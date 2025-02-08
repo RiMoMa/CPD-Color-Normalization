@@ -4,7 +4,7 @@ import numpy as np
 import scipy.io as sio
 from tqdm import tqdm
 
-# Función para ver los labels únicos
+# Función para retornar los labels únicos
 def get_unique_labels(inst_map):
     unique_labels = np.unique(inst_map)
     return unique_labels[unique_labels > 0]
